@@ -1,0 +1,15 @@
+-ksp_type fgmres
+-pc_type fieldsplit 
+-pc_fieldsplit_schur_precondition selfp 
+-pc_fieldsplit_type schur 
+-pc_fieldsplit_schur_fact_type lower 
+-pc_fieldsplit_block_size 3 
+-pc_fieldsplit_0_fields 1,2 
+-pc_fieldsplit_1_fields 0 
+-fieldsplit_1_pc_type gamg
+-ksp_monitor 
+-ksp_monitor_true_residual
+-ksp_view
+-pc_monitor
+-log_summary 
+-mat_block_size 3  
