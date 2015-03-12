@@ -37,16 +37,5 @@ block_size = int(sys.argv[1])
 mat_files = [filename for filename in sys.argv[2:] if not (filename.endswith('.info') or filename.endswith('.options'))]
 
 for file, name in iter_systems(mat_files):
-    convert_mat(file, name)
-
-def iter_systems(file_prefix, name_prefix):
-    for i in count():
-        filename = file_prefix + str(i)
-        if os.path.exists(filename):
-            yield filename, name_prefix + str(i)
-        else:
-            return
-
-for file, name in iter_systems(file_prefix, name_prefix):
     convert_mat(file, name, block_size)
 
