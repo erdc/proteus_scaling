@@ -1,1 +1,1088 @@
-#$# git-fat 78e8aea315f25f6e9b5da3f72ef74db9e6197f9a                66796
+
+Stage: plunging_breakers_twp_navier_stokes_p_L_0_blocked_3
+KSP Object: 16 MPI processes
+  type: preonly
+  maximum iterations=10000, initial guess is zero
+  tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+  left preconditioning
+  using NONE norm type for convergence test
+PC Object: 16 MPI processes
+  type: lu
+    LU: out-of-place factorization
+    tolerance for zero pivot 2.22045e-14
+    matrix ordering: natural
+    factor fill ratio given 0, needed 0
+      Factored matrix follows:
+        Mat Object:         16 MPI processes
+          type: mpiaij
+          rows=393033, cols=393033
+          package used to perform factorization: superlu_dist
+          total: nonzeros=0, allocated nonzeros=0
+          total number of mallocs used during MatSetValues calls =0
+            SuperLU_DIST run parameters:
+              Process grid nprow 4 x npcol 4 
+              Equilibrate matrix TRUE 
+              Matrix input mode 1 
+              Replace tiny pivots TRUE 
+              Use iterative refinement FALSE 
+              Processors in row 4 col partition 4 
+              Row permutation LargeDiag 
+              Column permutation METIS_AT_PLUS_A
+              Parallel symbolic factorization FALSE 
+              Repeated factorization SamePattern_SameRowPerm
+  linear system matrix = precond matrix:
+  Mat Object:   16 MPI processes
+    type: mpiaij
+    rows=393033, cols=393033, bs=3
+    total: nonzeros=8.18086e+06, allocated nonzeros=8.18086e+06
+    total number of mallocs used during MatSetValues calls =0
+      using I-node (on process 0) routines: found 8189 nodes, limit used is 5
+Stage: plunging_breakers_twp_navier_stokes_p_L_10_blocked_3
+KSP Object: 16 MPI processes
+  type: preonly
+  maximum iterations=10000, initial guess is zero
+  tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+  left preconditioning
+  using NONE norm type for convergence test
+PC Object: 16 MPI processes
+  type: lu
+    LU: out-of-place factorization
+    tolerance for zero pivot 2.22045e-14
+    matrix ordering: natural
+    factor fill ratio given 0, needed 0
+      Factored matrix follows:
+        Mat Object:         16 MPI processes
+          type: mpiaij
+          rows=393033, cols=393033
+          package used to perform factorization: superlu_dist
+          total: nonzeros=0, allocated nonzeros=0
+          total number of mallocs used during MatSetValues calls =0
+            SuperLU_DIST run parameters:
+              Process grid nprow 4 x npcol 4 
+              Equilibrate matrix TRUE 
+              Matrix input mode 1 
+              Replace tiny pivots TRUE 
+              Use iterative refinement FALSE 
+              Processors in row 4 col partition 4 
+              Row permutation LargeDiag 
+              Column permutation METIS_AT_PLUS_A
+              Parallel symbolic factorization FALSE 
+              Repeated factorization SamePattern_SameRowPerm
+  linear system matrix = precond matrix:
+  Mat Object:   16 MPI processes
+    type: mpiaij
+    rows=393033, cols=393033, bs=3
+    total: nonzeros=8.18086e+06, allocated nonzeros=8.18086e+06
+    total number of mallocs used during MatSetValues calls =0
+      using I-node (on process 0) routines: found 8189 nodes, limit used is 5
+Stage: plunging_breakers_twp_navier_stokes_p_L_11_blocked_3
+KSP Object: 16 MPI processes
+  type: preonly
+  maximum iterations=10000, initial guess is zero
+  tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+  left preconditioning
+  using NONE norm type for convergence test
+PC Object: 16 MPI processes
+  type: lu
+    LU: out-of-place factorization
+    tolerance for zero pivot 2.22045e-14
+    matrix ordering: natural
+    factor fill ratio given 0, needed 0
+      Factored matrix follows:
+        Mat Object:         16 MPI processes
+          type: mpiaij
+          rows=393033, cols=393033
+          package used to perform factorization: superlu_dist
+          total: nonzeros=0, allocated nonzeros=0
+          total number of mallocs used during MatSetValues calls =0
+            SuperLU_DIST run parameters:
+              Process grid nprow 4 x npcol 4 
+              Equilibrate matrix TRUE 
+              Matrix input mode 1 
+              Replace tiny pivots TRUE 
+              Use iterative refinement FALSE 
+              Processors in row 4 col partition 4 
+              Row permutation LargeDiag 
+              Column permutation METIS_AT_PLUS_A
+              Parallel symbolic factorization FALSE 
+              Repeated factorization SamePattern_SameRowPerm
+  linear system matrix = precond matrix:
+  Mat Object:   16 MPI processes
+    type: mpiaij
+    rows=393033, cols=393033, bs=3
+    total: nonzeros=8.18086e+06, allocated nonzeros=8.18086e+06
+    total number of mallocs used during MatSetValues calls =0
+      using I-node (on process 0) routines: found 8189 nodes, limit used is 5
+Stage: plunging_breakers_twp_navier_stokes_p_L_12_blocked_3
+KSP Object: 16 MPI processes
+  type: preonly
+  maximum iterations=10000, initial guess is zero
+  tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+  left preconditioning
+  using NONE norm type for convergence test
+PC Object: 16 MPI processes
+  type: lu
+    LU: out-of-place factorization
+    tolerance for zero pivot 2.22045e-14
+    matrix ordering: natural
+    factor fill ratio given 0, needed 0
+      Factored matrix follows:
+        Mat Object:         16 MPI processes
+          type: mpiaij
+          rows=393033, cols=393033
+          package used to perform factorization: superlu_dist
+          total: nonzeros=0, allocated nonzeros=0
+          total number of mallocs used during MatSetValues calls =0
+            SuperLU_DIST run parameters:
+              Process grid nprow 4 x npcol 4 
+              Equilibrate matrix TRUE 
+              Matrix input mode 1 
+              Replace tiny pivots TRUE 
+              Use iterative refinement FALSE 
+              Processors in row 4 col partition 4 
+              Row permutation LargeDiag 
+              Column permutation METIS_AT_PLUS_A
+              Parallel symbolic factorization FALSE 
+              Repeated factorization SamePattern_SameRowPerm
+  linear system matrix = precond matrix:
+  Mat Object:   16 MPI processes
+    type: mpiaij
+    rows=393033, cols=393033, bs=3
+    total: nonzeros=8.18086e+06, allocated nonzeros=8.18086e+06
+    total number of mallocs used during MatSetValues calls =0
+      using I-node (on process 0) routines: found 8189 nodes, limit used is 5
+Stage: plunging_breakers_twp_navier_stokes_p_L_13_blocked_3
+KSP Object: 16 MPI processes
+  type: preonly
+  maximum iterations=10000, initial guess is zero
+  tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+  left preconditioning
+  using NONE norm type for convergence test
+PC Object: 16 MPI processes
+  type: lu
+    LU: out-of-place factorization
+    tolerance for zero pivot 2.22045e-14
+    matrix ordering: natural
+    factor fill ratio given 0, needed 0
+      Factored matrix follows:
+        Mat Object:         16 MPI processes
+          type: mpiaij
+          rows=393033, cols=393033
+          package used to perform factorization: superlu_dist
+          total: nonzeros=0, allocated nonzeros=0
+          total number of mallocs used during MatSetValues calls =0
+            SuperLU_DIST run parameters:
+              Process grid nprow 4 x npcol 4 
+              Equilibrate matrix TRUE 
+              Matrix input mode 1 
+              Replace tiny pivots TRUE 
+              Use iterative refinement FALSE 
+              Processors in row 4 col partition 4 
+              Row permutation LargeDiag 
+              Column permutation METIS_AT_PLUS_A
+              Parallel symbolic factorization FALSE 
+              Repeated factorization SamePattern_SameRowPerm
+  linear system matrix = precond matrix:
+  Mat Object:   16 MPI processes
+    type: mpiaij
+    rows=393033, cols=393033, bs=3
+    total: nonzeros=8.18086e+06, allocated nonzeros=8.18086e+06
+    total number of mallocs used during MatSetValues calls =0
+      using I-node (on process 0) routines: found 8189 nodes, limit used is 5
+Stage: plunging_breakers_twp_navier_stokes_p_L_14_blocked_3
+KSP Object: 16 MPI processes
+  type: preonly
+  maximum iterations=10000, initial guess is zero
+  tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+  left preconditioning
+  using NONE norm type for convergence test
+PC Object: 16 MPI processes
+  type: lu
+    LU: out-of-place factorization
+    tolerance for zero pivot 2.22045e-14
+    matrix ordering: natural
+    factor fill ratio given 0, needed 0
+      Factored matrix follows:
+        Mat Object:         16 MPI processes
+          type: mpiaij
+          rows=393033, cols=393033
+          package used to perform factorization: superlu_dist
+          total: nonzeros=0, allocated nonzeros=0
+          total number of mallocs used during MatSetValues calls =0
+            SuperLU_DIST run parameters:
+              Process grid nprow 4 x npcol 4 
+              Equilibrate matrix TRUE 
+              Matrix input mode 1 
+              Replace tiny pivots TRUE 
+              Use iterative refinement FALSE 
+              Processors in row 4 col partition 4 
+              Row permutation LargeDiag 
+              Column permutation METIS_AT_PLUS_A
+              Parallel symbolic factorization FALSE 
+              Repeated factorization SamePattern_SameRowPerm
+  linear system matrix = precond matrix:
+  Mat Object:   16 MPI processes
+    type: mpiaij
+    rows=393033, cols=393033, bs=3
+    total: nonzeros=8.18086e+06, allocated nonzeros=8.18086e+06
+    total number of mallocs used during MatSetValues calls =0
+      using I-node (on process 0) routines: found 8189 nodes, limit used is 5
+Stage: plunging_breakers_twp_navier_stokes_p_L_15_blocked_3
+KSP Object: 16 MPI processes
+  type: preonly
+  maximum iterations=10000, initial guess is zero
+  tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+  left preconditioning
+  using NONE norm type for convergence test
+PC Object: 16 MPI processes
+  type: lu
+    LU: out-of-place factorization
+    tolerance for zero pivot 2.22045e-14
+    matrix ordering: natural
+    factor fill ratio given 0, needed 0
+      Factored matrix follows:
+        Mat Object:         16 MPI processes
+          type: mpiaij
+          rows=393033, cols=393033
+          package used to perform factorization: superlu_dist
+          total: nonzeros=0, allocated nonzeros=0
+          total number of mallocs used during MatSetValues calls =0
+            SuperLU_DIST run parameters:
+              Process grid nprow 4 x npcol 4 
+              Equilibrate matrix TRUE 
+              Matrix input mode 1 
+              Replace tiny pivots TRUE 
+              Use iterative refinement FALSE 
+              Processors in row 4 col partition 4 
+              Row permutation LargeDiag 
+              Column permutation METIS_AT_PLUS_A
+              Parallel symbolic factorization FALSE 
+              Repeated factorization SamePattern_SameRowPerm
+  linear system matrix = precond matrix:
+  Mat Object:   16 MPI processes
+    type: mpiaij
+    rows=393033, cols=393033, bs=3
+    total: nonzeros=8.18086e+06, allocated nonzeros=8.18086e+06
+    total number of mallocs used during MatSetValues calls =0
+      using I-node (on process 0) routines: found 8189 nodes, limit used is 5
+Stage: plunging_breakers_twp_navier_stokes_p_L_1_blocked_3
+KSP Object: 16 MPI processes
+  type: preonly
+  maximum iterations=10000, initial guess is zero
+  tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+  left preconditioning
+  using NONE norm type for convergence test
+PC Object: 16 MPI processes
+  type: lu
+    LU: out-of-place factorization
+    tolerance for zero pivot 2.22045e-14
+    matrix ordering: natural
+    factor fill ratio given 0, needed 0
+      Factored matrix follows:
+        Mat Object:         16 MPI processes
+          type: mpiaij
+          rows=393033, cols=393033
+          package used to perform factorization: superlu_dist
+          total: nonzeros=0, allocated nonzeros=0
+          total number of mallocs used during MatSetValues calls =0
+            SuperLU_DIST run parameters:
+              Process grid nprow 4 x npcol 4 
+              Equilibrate matrix TRUE 
+              Matrix input mode 1 
+              Replace tiny pivots TRUE 
+              Use iterative refinement FALSE 
+              Processors in row 4 col partition 4 
+              Row permutation LargeDiag 
+              Column permutation METIS_AT_PLUS_A
+              Parallel symbolic factorization FALSE 
+              Repeated factorization SamePattern_SameRowPerm
+  linear system matrix = precond matrix:
+  Mat Object:   16 MPI processes
+    type: mpiaij
+    rows=393033, cols=393033, bs=3
+    total: nonzeros=8.18086e+06, allocated nonzeros=8.18086e+06
+    total number of mallocs used during MatSetValues calls =0
+      using I-node (on process 0) routines: found 8189 nodes, limit used is 5
+Stage: plunging_breakers_twp_navier_stokes_p_L_2_blocked_3
+KSP Object: 16 MPI processes
+  type: preonly
+  maximum iterations=10000, initial guess is zero
+  tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+  left preconditioning
+  using NONE norm type for convergence test
+PC Object: 16 MPI processes
+  type: lu
+    LU: out-of-place factorization
+    tolerance for zero pivot 2.22045e-14
+    matrix ordering: natural
+    factor fill ratio given 0, needed 0
+      Factored matrix follows:
+        Mat Object:         16 MPI processes
+          type: mpiaij
+          rows=393033, cols=393033
+          package used to perform factorization: superlu_dist
+          total: nonzeros=0, allocated nonzeros=0
+          total number of mallocs used during MatSetValues calls =0
+            SuperLU_DIST run parameters:
+              Process grid nprow 4 x npcol 4 
+              Equilibrate matrix TRUE 
+              Matrix input mode 1 
+              Replace tiny pivots TRUE 
+              Use iterative refinement FALSE 
+              Processors in row 4 col partition 4 
+              Row permutation LargeDiag 
+              Column permutation METIS_AT_PLUS_A
+              Parallel symbolic factorization FALSE 
+              Repeated factorization SamePattern_SameRowPerm
+  linear system matrix = precond matrix:
+  Mat Object:   16 MPI processes
+    type: mpiaij
+    rows=393033, cols=393033, bs=3
+    total: nonzeros=8.18086e+06, allocated nonzeros=8.18086e+06
+    total number of mallocs used during MatSetValues calls =0
+      using I-node (on process 0) routines: found 8189 nodes, limit used is 5
+Stage: plunging_breakers_twp_navier_stokes_p_L_3_blocked_3
+KSP Object: 16 MPI processes
+  type: preonly
+  maximum iterations=10000, initial guess is zero
+  tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+  left preconditioning
+  using NONE norm type for convergence test
+PC Object: 16 MPI processes
+  type: lu
+    LU: out-of-place factorization
+    tolerance for zero pivot 2.22045e-14
+    matrix ordering: natural
+    factor fill ratio given 0, needed 0
+      Factored matrix follows:
+        Mat Object:         16 MPI processes
+          type: mpiaij
+          rows=393033, cols=393033
+          package used to perform factorization: superlu_dist
+          total: nonzeros=0, allocated nonzeros=0
+          total number of mallocs used during MatSetValues calls =0
+            SuperLU_DIST run parameters:
+              Process grid nprow 4 x npcol 4 
+              Equilibrate matrix TRUE 
+              Matrix input mode 1 
+              Replace tiny pivots TRUE 
+              Use iterative refinement FALSE 
+              Processors in row 4 col partition 4 
+              Row permutation LargeDiag 
+              Column permutation METIS_AT_PLUS_A
+              Parallel symbolic factorization FALSE 
+              Repeated factorization SamePattern_SameRowPerm
+  linear system matrix = precond matrix:
+  Mat Object:   16 MPI processes
+    type: mpiaij
+    rows=393033, cols=393033, bs=3
+    total: nonzeros=8.18086e+06, allocated nonzeros=8.18086e+06
+    total number of mallocs used during MatSetValues calls =0
+      using I-node (on process 0) routines: found 8189 nodes, limit used is 5
+Stage: plunging_breakers_twp_navier_stokes_p_L_4_blocked_3
+KSP Object: 16 MPI processes
+  type: preonly
+  maximum iterations=10000, initial guess is zero
+  tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+  left preconditioning
+  using NONE norm type for convergence test
+PC Object: 16 MPI processes
+  type: lu
+    LU: out-of-place factorization
+    tolerance for zero pivot 2.22045e-14
+    matrix ordering: natural
+    factor fill ratio given 0, needed 0
+      Factored matrix follows:
+        Mat Object:         16 MPI processes
+          type: mpiaij
+          rows=393033, cols=393033
+          package used to perform factorization: superlu_dist
+          total: nonzeros=0, allocated nonzeros=0
+          total number of mallocs used during MatSetValues calls =0
+            SuperLU_DIST run parameters:
+              Process grid nprow 4 x npcol 4 
+              Equilibrate matrix TRUE 
+              Matrix input mode 1 
+              Replace tiny pivots TRUE 
+              Use iterative refinement FALSE 
+              Processors in row 4 col partition 4 
+              Row permutation LargeDiag 
+              Column permutation METIS_AT_PLUS_A
+              Parallel symbolic factorization FALSE 
+              Repeated factorization SamePattern_SameRowPerm
+  linear system matrix = precond matrix:
+  Mat Object:   16 MPI processes
+    type: mpiaij
+    rows=393033, cols=393033, bs=3
+    total: nonzeros=8.18086e+06, allocated nonzeros=8.18086e+06
+    total number of mallocs used during MatSetValues calls =0
+      using I-node (on process 0) routines: found 8189 nodes, limit used is 5
+Stage: plunging_breakers_twp_navier_stokes_p_L_5_blocked_3
+KSP Object: 16 MPI processes
+  type: preonly
+  maximum iterations=10000, initial guess is zero
+  tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+  left preconditioning
+  using NONE norm type for convergence test
+PC Object: 16 MPI processes
+  type: lu
+    LU: out-of-place factorization
+    tolerance for zero pivot 2.22045e-14
+    matrix ordering: natural
+    factor fill ratio given 0, needed 0
+      Factored matrix follows:
+        Mat Object:         16 MPI processes
+          type: mpiaij
+          rows=393033, cols=393033
+          package used to perform factorization: superlu_dist
+          total: nonzeros=0, allocated nonzeros=0
+          total number of mallocs used during MatSetValues calls =0
+            SuperLU_DIST run parameters:
+              Process grid nprow 4 x npcol 4 
+              Equilibrate matrix TRUE 
+              Matrix input mode 1 
+              Replace tiny pivots TRUE 
+              Use iterative refinement FALSE 
+              Processors in row 4 col partition 4 
+              Row permutation LargeDiag 
+              Column permutation METIS_AT_PLUS_A
+              Parallel symbolic factorization FALSE 
+              Repeated factorization SamePattern_SameRowPerm
+  linear system matrix = precond matrix:
+  Mat Object:   16 MPI processes
+    type: mpiaij
+    rows=393033, cols=393033, bs=3
+    total: nonzeros=8.18086e+06, allocated nonzeros=8.18086e+06
+    total number of mallocs used during MatSetValues calls =0
+      using I-node (on process 0) routines: found 8189 nodes, limit used is 5
+Stage: plunging_breakers_twp_navier_stokes_p_L_6_blocked_3
+KSP Object: 16 MPI processes
+  type: preonly
+  maximum iterations=10000, initial guess is zero
+  tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+  left preconditioning
+  using NONE norm type for convergence test
+PC Object: 16 MPI processes
+  type: lu
+    LU: out-of-place factorization
+    tolerance for zero pivot 2.22045e-14
+    matrix ordering: natural
+    factor fill ratio given 0, needed 0
+      Factored matrix follows:
+        Mat Object:         16 MPI processes
+          type: mpiaij
+          rows=393033, cols=393033
+          package used to perform factorization: superlu_dist
+          total: nonzeros=0, allocated nonzeros=0
+          total number of mallocs used during MatSetValues calls =0
+            SuperLU_DIST run parameters:
+              Process grid nprow 4 x npcol 4 
+              Equilibrate matrix TRUE 
+              Matrix input mode 1 
+              Replace tiny pivots TRUE 
+              Use iterative refinement FALSE 
+              Processors in row 4 col partition 4 
+              Row permutation LargeDiag 
+              Column permutation METIS_AT_PLUS_A
+              Parallel symbolic factorization FALSE 
+              Repeated factorization SamePattern_SameRowPerm
+  linear system matrix = precond matrix:
+  Mat Object:   16 MPI processes
+    type: mpiaij
+    rows=393033, cols=393033, bs=3
+    total: nonzeros=8.18086e+06, allocated nonzeros=8.18086e+06
+    total number of mallocs used during MatSetValues calls =0
+      using I-node (on process 0) routines: found 8189 nodes, limit used is 5
+Stage: plunging_breakers_twp_navier_stokes_p_L_7_blocked_3
+KSP Object: 16 MPI processes
+  type: preonly
+  maximum iterations=10000, initial guess is zero
+  tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+  left preconditioning
+  using NONE norm type for convergence test
+PC Object: 16 MPI processes
+  type: lu
+    LU: out-of-place factorization
+    tolerance for zero pivot 2.22045e-14
+    matrix ordering: natural
+    factor fill ratio given 0, needed 0
+      Factored matrix follows:
+        Mat Object:         16 MPI processes
+          type: mpiaij
+          rows=393033, cols=393033
+          package used to perform factorization: superlu_dist
+          total: nonzeros=0, allocated nonzeros=0
+          total number of mallocs used during MatSetValues calls =0
+            SuperLU_DIST run parameters:
+              Process grid nprow 4 x npcol 4 
+              Equilibrate matrix TRUE 
+              Matrix input mode 1 
+              Replace tiny pivots TRUE 
+              Use iterative refinement FALSE 
+              Processors in row 4 col partition 4 
+              Row permutation LargeDiag 
+              Column permutation METIS_AT_PLUS_A
+              Parallel symbolic factorization FALSE 
+              Repeated factorization SamePattern_SameRowPerm
+  linear system matrix = precond matrix:
+  Mat Object:   16 MPI processes
+    type: mpiaij
+    rows=393033, cols=393033, bs=3
+    total: nonzeros=8.18086e+06, allocated nonzeros=8.18086e+06
+    total number of mallocs used during MatSetValues calls =0
+      using I-node (on process 0) routines: found 8189 nodes, limit used is 5
+Stage: plunging_breakers_twp_navier_stokes_p_L_8_blocked_3
+KSP Object: 16 MPI processes
+  type: preonly
+  maximum iterations=10000, initial guess is zero
+  tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+  left preconditioning
+  using NONE norm type for convergence test
+PC Object: 16 MPI processes
+  type: lu
+    LU: out-of-place factorization
+    tolerance for zero pivot 2.22045e-14
+    matrix ordering: natural
+    factor fill ratio given 0, needed 0
+      Factored matrix follows:
+        Mat Object:         16 MPI processes
+          type: mpiaij
+          rows=393033, cols=393033
+          package used to perform factorization: superlu_dist
+          total: nonzeros=0, allocated nonzeros=0
+          total number of mallocs used during MatSetValues calls =0
+            SuperLU_DIST run parameters:
+              Process grid nprow 4 x npcol 4 
+              Equilibrate matrix TRUE 
+              Matrix input mode 1 
+              Replace tiny pivots TRUE 
+              Use iterative refinement FALSE 
+              Processors in row 4 col partition 4 
+              Row permutation LargeDiag 
+              Column permutation METIS_AT_PLUS_A
+              Parallel symbolic factorization FALSE 
+              Repeated factorization SamePattern_SameRowPerm
+  linear system matrix = precond matrix:
+  Mat Object:   16 MPI processes
+    type: mpiaij
+    rows=393033, cols=393033, bs=3
+    total: nonzeros=8.18086e+06, allocated nonzeros=8.18086e+06
+    total number of mallocs used during MatSetValues calls =0
+      using I-node (on process 0) routines: found 8189 nodes, limit used is 5
+Stage: plunging_breakers_twp_navier_stokes_p_L_9_blocked_3
+KSP Object: 16 MPI processes
+  type: preonly
+  maximum iterations=10000, initial guess is zero
+  tolerances:  relative=1e-05, absolute=1e-50, divergence=10000
+  left preconditioning
+  using NONE norm type for convergence test
+PC Object: 16 MPI processes
+  type: lu
+    LU: out-of-place factorization
+    tolerance for zero pivot 2.22045e-14
+    matrix ordering: natural
+    factor fill ratio given 0, needed 0
+      Factored matrix follows:
+        Mat Object:         16 MPI processes
+          type: mpiaij
+          rows=393033, cols=393033
+          package used to perform factorization: superlu_dist
+          total: nonzeros=0, allocated nonzeros=0
+          total number of mallocs used during MatSetValues calls =0
+            SuperLU_DIST run parameters:
+              Process grid nprow 4 x npcol 4 
+              Equilibrate matrix TRUE 
+              Matrix input mode 1 
+              Replace tiny pivots TRUE 
+              Use iterative refinement FALSE 
+              Processors in row 4 col partition 4 
+              Row permutation LargeDiag 
+              Column permutation METIS_AT_PLUS_A
+              Parallel symbolic factorization FALSE 
+              Repeated factorization SamePattern_SameRowPerm
+  linear system matrix = precond matrix:
+  Mat Object:   16 MPI processes
+    type: mpiaij
+    rows=393033, cols=393033, bs=3
+    total: nonzeros=8.18086e+06, allocated nonzeros=8.18086e+06
+    total number of mallocs used during MatSetValues calls =0
+      using I-node (on process 0) routines: found 8189 nodes, limit used is 5
+************************************************************************************************************************
+***             WIDEN YOUR WINDOW TO 120 CHARACTERS.  Use 'enscript -r -fCourier9' to print this document            ***
+************************************************************************************************************************
+
+---------------------------------------------- PETSc Performance Summary: ----------------------------------------------
+
+code/test_mat.py on a arch-linux2-c-opt named tethys with 16 processors, by aron Thu Mar 12 13:35:42 2015
+Using Petsc Release Version 3.5.2, Sep, 08, 2014 
+
+                         Max       Max/Min        Avg      Total 
+Time (sec):           1.296e+02      1.00000   1.296e+02
+Objects:              3.530e+02      1.00000   3.530e+02
+Flops:                0.000e+00      0.00000   0.000e+00  0.000e+00
+Flops/sec:            0.000e+00      0.00000   0.000e+00  0.000e+00
+MPI Messages:         5.120e+02      5.33333   1.440e+02  2.304e+03
+MPI Message Lengths:  7.724e+08     15.04460   6.716e+05  1.547e+09
+MPI Reductions:       4.490e+02      1.00000
+
+Flop counting convention: 1 flop = 1 real number operation of type (multiply/divide/add/subtract)
+                            e.g., VecAXPY() for real vectors of length N --> 2N flops
+                            and VecAXPY() for complex vectors of length N --> 8N flops
+
+Summary of Stages:   ----- Time ------  ----- Flops -----  --- Messages ---  -- Message Lengths --  -- Reductions --
+                        Avg     %Total     Avg     %Total   counts   %Total     Avg         %Total   counts   %Total 
+ 0:      Main Stage: 5.5485e+00   4.3%  0.0000e+00   0.0%  2.304e+03 100.0%  6.716e+05      100.0%  3.200e+02  71.3% 
+ 1: plunging_breakers_twp_navier_stokes_p_L_0_blocked_3: 8.2324e+00   6.4%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  8.000e+00   1.8% 
+ 2: plunging_breakers_twp_navier_stokes_p_L_10_blocked_3: 7.7904e+00   6.0%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  8.000e+00   1.8% 
+ 3: plunging_breakers_twp_navier_stokes_p_L_11_blocked_3: 7.7303e+00   6.0%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  8.000e+00   1.8% 
+ 4: plunging_breakers_twp_navier_stokes_p_L_12_blocked_3: 7.7072e+00   5.9%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  8.000e+00   1.8% 
+ 5: plunging_breakers_twp_navier_stokes_p_L_13_blocked_3: 7.7972e+00   6.0%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  8.000e+00   1.8% 
+ 6: plunging_breakers_twp_navier_stokes_p_L_14_blocked_3: 7.7457e+00   6.0%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  8.000e+00   1.8% 
+ 7: plunging_breakers_twp_navier_stokes_p_L_15_blocked_3: 7.7472e+00   6.0%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  8.000e+00   1.8% 
+ 8: plunging_breakers_twp_navier_stokes_p_L_1_blocked_3: 7.8409e+00   6.0%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  8.000e+00   1.8% 
+ 9: plunging_breakers_twp_navier_stokes_p_L_2_blocked_3: 7.6474e+00   5.9%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  8.000e+00   1.8% 
+10: plunging_breakers_twp_navier_stokes_p_L_3_blocked_3: 7.6523e+00   5.9%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  8.000e+00   1.8% 
+11: plunging_breakers_twp_navier_stokes_p_L_4_blocked_3: 7.6588e+00   5.9%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  8.000e+00   1.8% 
+12: plunging_breakers_twp_navier_stokes_p_L_5_blocked_3: 7.6873e+00   5.9%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  8.000e+00   1.8% 
+13: plunging_breakers_twp_navier_stokes_p_L_6_blocked_3: 7.6777e+00   5.9%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  8.000e+00   1.8% 
+14: plunging_breakers_twp_navier_stokes_p_L_7_blocked_3: 7.6682e+00   5.9%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  8.000e+00   1.8% 
+15: plunging_breakers_twp_navier_stokes_p_L_8_blocked_3: 7.7442e+00   6.0%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  8.000e+00   1.8% 
+16: plunging_breakers_twp_navier_stokes_p_L_9_blocked_3: 7.7513e+00   6.0%  0.0000e+00   0.0%  0.000e+00   0.0%  0.000e+00        0.0%  8.000e+00   1.8% 
+
+------------------------------------------------------------------------------------------------------------------------
+See the 'Profiling' chapter of the users' manual for details on interpreting output.
+Phase summary info:
+   Count: number of times phase was executed
+   Time and Flops: Max - maximum over all processors
+                   Ratio - ratio of maximum to minimum over all processors
+   Mess: number of messages sent
+   Avg. len: average message length (bytes)
+   Reduct: number of global reductions
+   Global: entire computation
+   Stage: stages of a computation. Set stages with PetscLogStagePush() and PetscLogStagePop().
+      %T - percent time in this phase         %F - percent flops in this phase
+      %M - percent messages in this phase     %L - percent message lengths in this phase
+      %R - percent reductions in this phase
+   Total Mflop/s: 10e-6 * (sum of flops over all processors)/(max time over all processors)
+------------------------------------------------------------------------------------------------------------------------
+Event                Count      Time (sec)     Flops                             --- Global ---  --- Stage ---   Total
+                   Max Ratio  Max     Ratio   Max  Ratio  Mess   Avg len Reduct  %T %F %M %L %R  %T %F %M %L %R Mflop/s
+------------------------------------------------------------------------------------------------------------------------
+
+--- Event Stage 0: Main Stage
+
+VecSet                16 1.0 9.4891e-05 2.8 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecAssemblyBegin      16 1.0 1.4887e-01219.6 0.00e+00 0.0 0.0e+00 0.0e+00 4.8e+01  0  0  0  0 11   1  0  0  0 15     0
+VecAssemblyEnd        16 1.0 3.0279e-05 1.4 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecLoad               16 1.0 1.7033e-01 1.0 0.00e+00 0.0 2.4e+02 2.0e+05 4.8e+01  0  0 10  3 11   3  0 10  3 15     0
+MatAssemblyBegin      16 1.0 3.0758e+002810.7 0.00e+00 0.0 0.0e+00 0.0e+00 3.2e+01  1  0  0  0  7  26  0  0  0 10     0
+MatAssemblyEnd        16 1.0 9.9309e-02 1.0 0.00e+00 0.0 1.3e+03 1.9e+03 1.3e+02  0  0 58  0 29   2  0 58  0 40     0
+MatLoad               16 1.0 5.2361e+00 1.0 0.00e+00 0.0 2.1e+03 7.3e+05 2.1e+02  4  0 90 97 46  94  0 90 97 65     0
+
+--- Event Stage 1: plunging_breakers_twp_navier_stokes_p_L_0_blocked_3
+
+VecCopy                1 1.0 1.6236e-04 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet                 1 1.0 1.3995e-04 1.3 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatSolve               1 1.0 1.7708e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatLUFactorSym         1 1.0 7.6175e-04 1.6 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatLUFactorNum         1 1.0 8.0507e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  6  0  0  0  0  98  0  0  0  0     0
+MatGetRowIJ            1 1.0 2.8610e-06 1.5 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatGetOrdering         1 1.0 9.7752e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatView                2 1.0 1.1179e-03 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0 25     0
+PCSetUp                1 1.0 8.0539e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1  98  0  0  0 75     0
+PCApply                1 1.0 1.7708e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+KSPSetUp               1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve               1 1.0 8.2311e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1 100  0  0  0 75     0
+
+--- Event Stage 2: plunging_breakers_twp_navier_stokes_p_L_10_blocked_3
+
+VecCopy                1 1.0 1.7118e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet                 1 1.0 1.6713e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatSolve               1 1.0 1.6004e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatLUFactorSym         1 1.0 6.8903e-05 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatLUFactorNum         1 1.0 7.6274e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  6  0  0  0  0  98  0  0  0  0     0
+MatGetRowIJ            1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatGetOrdering         1 1.0 6.9904e-04 1.3 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatView                2 1.0 9.9397e-04 1.4 0.00e+00 0.0 0.0e+00 0.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0 25     0
+PCSetUp                1 1.0 7.6291e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1  98  0  0  0 75     0
+PCApply                1 1.0 1.6005e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+KSPSetUp               1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve               1 1.0 7.7893e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1 100  0  0  0 75     0
+
+--- Event Stage 3: plunging_breakers_twp_navier_stokes_p_L_11_blocked_3
+
+VecCopy                1 1.0 1.6809e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet                 1 1.0 1.6928e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatSolve               1 1.0 1.6040e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatLUFactorSym         1 1.0 6.6757e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatLUFactorNum         1 1.0 7.5669e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  6  0  0  0  0  98  0  0  0  0     0
+MatGetRowIJ            1 1.0 7.1526e-07 3.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatGetOrdering         1 1.0 7.0739e-04 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatView                2 1.0 9.5844e-04 1.4 0.00e+00 0.0 0.0e+00 0.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0 25     0
+PCSetUp                1 1.0 7.5687e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1  98  0  0  0 75     0
+PCApply                1 1.0 1.6040e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+KSPSetUp               1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve               1 1.0 7.7292e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1 100  0  0  0 75     0
+
+--- Event Stage 4: plunging_breakers_twp_navier_stokes_p_L_12_blocked_3
+
+VecCopy                1 1.0 1.6642e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet                 1 1.0 1.6689e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatSolve               1 1.0 1.6065e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatLUFactorSym         1 1.0 7.0095e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatLUFactorNum         1 1.0 7.5436e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  6  0  0  0  0  98  0  0  0  0     0
+MatGetRowIJ            1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatGetOrdering         1 1.0 7.1645e-04 1.3 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatView                2 1.0 9.4485e-04 1.4 0.00e+00 0.0 0.0e+00 0.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0 25     0
+PCSetUp                1 1.0 7.5453e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1  98  0  0  0 75     0
+PCApply                1 1.0 1.6065e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+KSPSetUp               1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve               1 1.0 7.7062e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1 100  0  0  0 75     0
+
+--- Event Stage 5: plunging_breakers_twp_navier_stokes_p_L_13_blocked_3
+
+VecCopy                1 1.0 1.6975e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet                 1 1.0 1.6856e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatSolve               1 1.0 1.5985e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatLUFactorSym         1 1.0 7.3195e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatLUFactorNum         1 1.0 7.6343e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  6  0  0  0  0  98  0  0  0  0     0
+MatGetRowIJ            1 1.0 4.7684e-07 0.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatGetOrdering         1 1.0 7.2336e-04 1.3 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatView                2 1.0 9.5582e-04 1.4 0.00e+00 0.0 0.0e+00 0.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0 25     0
+PCSetUp                1 1.0 7.6361e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1  98  0  0  0 75     0
+PCApply                1 1.0 1.5985e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+KSPSetUp               1 1.0 4.7684e-07 0.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve               1 1.0 7.7962e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1 100  0  0  0 75     0
+
+--- Event Stage 6: plunging_breakers_twp_navier_stokes_p_L_14_blocked_3
+
+VecCopy                1 1.0 1.6928e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet                 1 1.0 1.6212e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatSolve               1 1.0 1.5991e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatLUFactorSym         1 1.0 7.3433e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatLUFactorNum         1 1.0 7.5828e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  6  0  0  0  0  98  0  0  0  0     0
+MatGetRowIJ            1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatGetOrdering         1 1.0 7.1383e-04 1.3 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatView                2 1.0 1.0340e-03 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0 25     0
+PCSetUp                1 1.0 7.5845e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1  98  0  0  0 75     0
+PCApply                1 1.0 1.5991e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+KSPSetUp               1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve               1 1.0 7.7446e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1 100  0  0  0 75     0
+
+--- Event Stage 7: plunging_breakers_twp_navier_stokes_p_L_15_blocked_3
+
+VecCopy                1 1.0 1.6761e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet                 1 1.0 1.7166e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatSolve               1 1.0 1.6013e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatLUFactorSym         1 1.0 7.0095e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatLUFactorNum         1 1.0 7.5840e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  6  0  0  0  0  98  0  0  0  0     0
+MatGetRowIJ            1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatGetOrdering         1 1.0 7.2145e-04 1.3 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatView                2 1.0 9.7680e-04 6.6 0.00e+00 0.0 0.0e+00 0.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0 25     0
+PCSetUp                1 1.0 7.5858e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1  98  0  0  0 75     0
+PCApply                1 1.0 1.6013e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+KSPSetUp               1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve               1 1.0 7.7461e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1 100  0  0  0 75     0
+
+--- Event Stage 8: plunging_breakers_twp_navier_stokes_p_L_1_blocked_3
+
+VecCopy                1 1.0 1.6928e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet                 1 1.0 1.6499e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatSolve               1 1.0 1.6004e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatLUFactorSym         1 1.0 7.7009e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatLUFactorNum         1 1.0 7.6779e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  6  0  0  0  0  98  0  0  0  0     0
+MatGetRowIJ            1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatGetOrdering         1 1.0 7.1836e-04 1.3 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatView                2 1.0 9.5415e-04 1.4 0.00e+00 0.0 0.0e+00 0.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0 25     0
+PCSetUp                1 1.0 7.6797e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1  98  0  0  0 75     0
+PCApply                1 1.0 1.6005e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+KSPSetUp               1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve               1 1.0 7.8399e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1 100  0  0  0 75     0
+
+--- Event Stage 9: plunging_breakers_twp_navier_stokes_p_L_2_blocked_3
+
+VecCopy                1 1.0 1.9741e-04 1.3 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet                 1 1.0 1.7047e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatSolve               1 1.0 1.5998e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatLUFactorSym         1 1.0 7.2956e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatLUFactorNum         1 1.0 7.4844e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  6  0  0  0  0  98  0  0  0  0     0
+MatGetRowIJ            1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatGetOrdering         1 1.0 7.1406e-04 1.3 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatView                2 1.0 1.0331e-03 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0 25     0
+PCSetUp                1 1.0 7.4862e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1  98  0  0  0 75     0
+PCApply                1 1.0 1.5999e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+KSPSetUp               1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve               1 1.0 7.6463e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1 100  0  0  0 75     0
+
+--- Event Stage 10: plunging_breakers_twp_navier_stokes_p_L_3_blocked_3
+
+VecCopy                1 1.0 1.6761e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet                 1 1.0 1.6522e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatSolve               1 1.0 1.5993e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatLUFactorSym         1 1.0 7.2241e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatLUFactorNum         1 1.0 7.4894e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  6  0  0  0  0  98  0  0  0  0     0
+MatGetRowIJ            1 1.0 4.7684e-07 0.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatGetOrdering         1 1.0 7.2169e-04 1.3 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatView                2 1.0 9.9969e-04 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0 25     0
+PCSetUp                1 1.0 7.4911e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1  98  0  0  0 75     0
+PCApply                1 1.0 1.5994e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+KSPSetUp               1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve               1 1.0 7.6512e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1 100  0  0  0 75     0
+
+--- Event Stage 11: plunging_breakers_twp_navier_stokes_p_L_4_blocked_3
+
+VecCopy                1 1.0 1.7095e-04 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet                 1 1.0 1.6761e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatSolve               1 1.0 1.6049e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatLUFactorSym         1 1.0 7.2956e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatLUFactorNum         1 1.0 7.4953e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  6  0  0  0  0  98  0  0  0  0     0
+MatGetRowIJ            1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatGetOrdering         1 1.0 7.3147e-04 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatView                2 1.0 1.0726e-03 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0 25     0
+PCSetUp                1 1.0 7.4970e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1  98  0  0  0 75     0
+PCApply                1 1.0 1.6049e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+KSPSetUp               1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve               1 1.0 7.6577e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1 100  0  0  0 75     0
+
+--- Event Stage 12: plunging_breakers_twp_navier_stokes_p_L_5_blocked_3
+
+VecCopy                1 1.0 1.6880e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet                 1 1.0 1.6809e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatSolve               1 1.0 1.6027e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatLUFactorSym         1 1.0 7.3671e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatLUFactorNum         1 1.0 7.5240e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  6  0  0  0  0  98  0  0  0  0     0
+MatGetRowIJ            1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatGetOrdering         1 1.0 7.1597e-04 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatView                2 1.0 1.0092e-03 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0 25     0
+PCSetUp                1 1.0 7.5258e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1  98  0  0  0 75     0
+PCApply                1 1.0 1.6027e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+KSPSetUp               1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve               1 1.0 7.6862e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1 100  0  0  0 75     0
+
+--- Event Stage 13: plunging_breakers_twp_navier_stokes_p_L_6_blocked_3
+
+VecCopy                1 1.0 1.7476e-04 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet                 1 1.0 1.6308e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatSolve               1 1.0 1.5990e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatLUFactorSym         1 1.0 1.0014e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatLUFactorNum         1 1.0 7.5148e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  6  0  0  0  0  98  0  0  0  0     0
+MatGetRowIJ            1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatGetOrdering         1 1.0 7.0786e-04 1.3 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatView                2 1.0 1.0452e-03 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0 25     0
+PCSetUp                1 1.0 7.5166e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1  98  0  0  0 75     0
+PCApply                1 1.0 1.5990e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+KSPSetUp               1 1.0 7.1526e-07 3.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve               1 1.0 7.6767e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1 100  0  0  0 75     0
+
+--- Event Stage 14: plunging_breakers_twp_navier_stokes_p_L_7_blocked_3
+
+VecCopy                1 1.0 1.7047e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet                 1 1.0 1.6379e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatSolve               1 1.0 1.5982e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatLUFactorSym         1 1.0 7.1764e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatLUFactorNum         1 1.0 7.5054e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  6  0  0  0  0  98  0  0  0  0     0
+MatGetRowIJ            1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatGetOrdering         1 1.0 7.2265e-04 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatView                2 1.0 1.0011e-03 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0 25     0
+PCSetUp                1 1.0 7.5072e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1  98  0  0  0 75     0
+PCApply                1 1.0 1.5982e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+KSPSetUp               1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve               1 1.0 7.6672e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1 100  0  0  0 75     0
+
+--- Event Stage 15: plunging_breakers_twp_navier_stokes_p_L_8_blocked_3
+
+VecCopy                1 1.0 1.6999e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet                 1 1.0 1.6522e-04 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatSolve               1 1.0 1.6013e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatLUFactorSym         1 1.0 8.5592e-05 1.3 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatLUFactorNum         1 1.0 7.5811e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  6  0  0  0  0  98  0  0  0  0     0
+MatGetRowIJ            1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatGetOrdering         1 1.0 7.0477e-04 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatView                2 1.0 9.2149e-04 1.4 0.00e+00 0.0 0.0e+00 0.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0 25     0
+PCSetUp                1 1.0 7.5828e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1  98  0  0  0 75     0
+PCApply                1 1.0 1.6014e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+KSPSetUp               1 1.0 9.5367e-07 4.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve               1 1.0 7.7431e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1 100  0  0  0 75     0
+
+--- Event Stage 16: plunging_breakers_twp_navier_stokes_p_L_9_blocked_3
+
+VecCopy                1 1.0 1.6880e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+VecSet                 1 1.0 1.6522e-04 1.1 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatSolve               1 1.0 1.6013e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+MatLUFactorSym         1 1.0 7.5102e-05 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatLUFactorNum         1 1.0 7.5881e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  6  0  0  0  0  98  0  0  0  0     0
+MatGetRowIJ            1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatGetOrdering         1 1.0 7.0667e-04 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+MatView                2 1.0 1.0910e-03 1.2 0.00e+00 0.0 0.0e+00 0.0e+00 2.0e+00  0  0  0  0  0   0  0  0  0 25     0
+PCSetUp                1 1.0 7.5899e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1  98  0  0  0 75     0
+PCApply                1 1.0 1.6013e-01 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   2  0  0  0  0     0
+KSPSetUp               1 1.0 4.7684e-07 2.0 0.00e+00 0.0 0.0e+00 0.0e+00 0.0e+00  0  0  0  0  0   0  0  0  0  0     0
+KSPSolve               1 1.0 7.7502e+00 1.0 0.00e+00 0.0 0.0e+00 0.0e+00 6.0e+00  6  0  0  0  1 100  0  0  0 75     0
+------------------------------------------------------------------------------------------------------------------------
+
+Memory usage is given in bytes:
+
+Object Type          Creations   Destructions     Memory  Descendants' Mem.
+Reports information only for process 0.
+
+--- Event Stage 0: Main Stage
+
+              Viewer    16             16        12032     0
+           Index Set    32             64        75904     0
+              Vector    64             64      6439936     0
+      Vector Scatter    16             16        16960     0
+              Matrix    48             96    119022400     0
+      Preconditioner     0             16        16000     0
+       Krylov Solver     0             16        18560     0
+
+--- Event Stage 1: plunging_breakers_twp_navier_stokes_p_L_0_blocked_3
+
+              Viewer     1              0            0     0
+           Index Set     6              4       232428     0
+              Matrix     3              0            0     0
+      Preconditioner     1              0            0     0
+       Krylov Solver     1              0            0     0
+
+--- Event Stage 2: plunging_breakers_twp_navier_stokes_p_L_10_blocked_3
+
+           Index Set     6              4       232428     0
+              Matrix     3              0            0     0
+      Preconditioner     1              0            0     0
+       Krylov Solver     1              0            0     0
+
+--- Event Stage 3: plunging_breakers_twp_navier_stokes_p_L_11_blocked_3
+
+           Index Set     6              4       232428     0
+              Matrix     3              0            0     0
+      Preconditioner     1              0            0     0
+       Krylov Solver     1              0            0     0
+
+--- Event Stage 4: plunging_breakers_twp_navier_stokes_p_L_12_blocked_3
+
+           Index Set     6              4       232428     0
+              Matrix     3              0            0     0
+      Preconditioner     1              0            0     0
+       Krylov Solver     1              0            0     0
+
+--- Event Stage 5: plunging_breakers_twp_navier_stokes_p_L_13_blocked_3
+
+           Index Set     6              4       232428     0
+              Matrix     3              0            0     0
+      Preconditioner     1              0            0     0
+       Krylov Solver     1              0            0     0
+
+--- Event Stage 6: plunging_breakers_twp_navier_stokes_p_L_14_blocked_3
+
+           Index Set     6              4       232428     0
+              Matrix     3              0            0     0
+      Preconditioner     1              0            0     0
+       Krylov Solver     1              0            0     0
+
+--- Event Stage 7: plunging_breakers_twp_navier_stokes_p_L_15_blocked_3
+
+           Index Set     6              4       232428     0
+              Matrix     3              0            0     0
+      Preconditioner     1              0            0     0
+       Krylov Solver     1              0            0     0
+
+--- Event Stage 8: plunging_breakers_twp_navier_stokes_p_L_1_blocked_3
+
+           Index Set     6              4       232428     0
+              Matrix     3              0            0     0
+      Preconditioner     1              0            0     0
+       Krylov Solver     1              0            0     0
+
+--- Event Stage 9: plunging_breakers_twp_navier_stokes_p_L_2_blocked_3
+
+           Index Set     6              4       232428     0
+              Matrix     3              0            0     0
+      Preconditioner     1              0            0     0
+       Krylov Solver     1              0            0     0
+
+--- Event Stage 10: plunging_breakers_twp_navier_stokes_p_L_3_blocked_3
+
+           Index Set     6              4       232428     0
+              Matrix     3              0            0     0
+      Preconditioner     1              0            0     0
+       Krylov Solver     1              0            0     0
+
+--- Event Stage 11: plunging_breakers_twp_navier_stokes_p_L_4_blocked_3
+
+           Index Set     6              4       232428     0
+              Matrix     3              0            0     0
+      Preconditioner     1              0            0     0
+       Krylov Solver     1              0            0     0
+
+--- Event Stage 12: plunging_breakers_twp_navier_stokes_p_L_5_blocked_3
+
+           Index Set     6              4       232428     0
+              Matrix     3              0            0     0
+      Preconditioner     1              0            0     0
+       Krylov Solver     1              0            0     0
+
+--- Event Stage 13: plunging_breakers_twp_navier_stokes_p_L_6_blocked_3
+
+           Index Set     6              4       232428     0
+              Matrix     3              0            0     0
+      Preconditioner     1              0            0     0
+       Krylov Solver     1              0            0     0
+
+--- Event Stage 14: plunging_breakers_twp_navier_stokes_p_L_7_blocked_3
+
+           Index Set     6              4       232428     0
+              Matrix     3              0            0     0
+      Preconditioner     1              0            0     0
+       Krylov Solver     1              0            0     0
+
+--- Event Stage 15: plunging_breakers_twp_navier_stokes_p_L_8_blocked_3
+
+           Index Set     6              4       232428     0
+              Matrix     3              0            0     0
+      Preconditioner     1              0            0     0
+       Krylov Solver     1              0            0     0
+
+--- Event Stage 16: plunging_breakers_twp_navier_stokes_p_L_9_blocked_3
+
+           Index Set     6              4       232428     0
+              Matrix     3              0            0     0
+      Preconditioner     1              0            0     0
+       Krylov Solver     1              0            0     0
+========================================================================================================================
+Average time to get PetscTime(): 7.15256e-08
+Average time for MPI_Barrier(): 6.24657e-06
+Average time for zero size MPI_Send(): 5.66244e-06
+#PETSc Option Table entries:
+-ksp_monitor
+-ksp_type preonly
+-ksp_view
+-log_summary
+-mat_block_size 3
+-matload_block_size 3
+-pc_factor_mat_solver_package superlu_dist
+-pc_monitor
+-pc_type lu
+-vecload_block_size 3
+#End of PETSc Option Table entries
+Compiled without FORTRAN kernels
+Compiled with full precision matrices (default)
+sizeof(short) 2 sizeof(int) 4 sizeof(long) 8 sizeof(void*) 8 sizeof(PetscScalar) 8 sizeof(PetscInt) 4
+Configure options: --prefix=/home/aron/.hashdist/bld/petsc/pudyfwyx5ndj COPTFLAGS=-O2 --with-shared-libraries=1 --with-debugging=0 --with-blas-dir=/home/aron/.hashdist/bld/blas/orqin7luuh5d --with-lapack-dir= --with-metis-dir=/home/aron/.hashdist/bld/parmetis/rvegjtqhbawe --with-parmetis-dir=/home/aron/.hashdist/bld/parmetis/rvegjtqhbawe --with-mpi-compilers CC=/home/aron/.hashdist/bld/mpi/hbd47qrzmwye/bin/mpicc CXX=/home/aron/.hashdist/bld/mpi/hbd47qrzmwye/bin/mpic++ F77=/home/aron/.hashdist/bld/mpi/hbd47qrzmwye/bin/mpif77 F90=/home/aron/.hashdist/bld/mpi/hbd47qrzmwye/bin/mpif90 FC=/home/aron/.hashdist/bld/mpi/hbd47qrzmwye/bin/mpif90 --with-patchelf-dir=/home/aron/.hashdist/bld/patchelf/k3rloj265ogt --with-python-dir=/home/aron/.hashdist/bld/python/ctzx2dm36c6d --download-superlu=1 --download-superlu_dist=1 --download-spooles=1 --download-hypre=1 --download-blacs=1 --download-scalapack=1 --download-mumps=1
+-----------------------------------------
+Libraries compiled on Tue Jan 20 08:33:25 2015 on tethys 
+Machine characteristics: Linux-3.13.0-32-generic-x86_64-with-debian-jessie-sid
+Using PETSc directory: /home/aron/.hashdist/tmp/petsc-pudyfwyx5ndj
+Using PETSc arch: arch-linux2-c-opt
+-----------------------------------------
+
+Using C compiler: /home/aron/.hashdist/bld/mpi/hbd47qrzmwye/bin/mpicc  -fPIC -Wall -Wwrite-strings -Wno-strict-aliasing -Wno-unknown-pragmas -O2  ${COPTFLAGS} ${CFLAGS}
+Using Fortran compiler: /home/aron/.hashdist/bld/mpi/hbd47qrzmwye/bin/mpif90  -fPIC -Wall -Wno-unused-variable -ffree-line-length-0 -Wno-unused-dummy-argument -O   ${FOPTFLAGS} ${FFLAGS} 
+-----------------------------------------
+
+Using include paths: -I/home/aron/.hashdist/tmp/petsc-pudyfwyx5ndj/arch-linux2-c-opt/include -I/home/aron/.hashdist/tmp/petsc-pudyfwyx5ndj/include -I/home/aron/.hashdist/tmp/petsc-pudyfwyx5ndj/include -I/home/aron/.hashdist/tmp/petsc-pudyfwyx5ndj/arch-linux2-c-opt/include -I/home/aron/.hashdist/bld/parmetis/rvegjtqhbawe/include -I/home/aron/.hashdist/bld/patchelf/k3rloj265ogt/include -I/home/aron/.hashdist/bld/mpi/hbd47qrzmwye/include
+-----------------------------------------
+
+Using C linker: /home/aron/.hashdist/bld/mpi/hbd47qrzmwye/bin/mpicc
+Using Fortran linker: /home/aron/.hashdist/bld/mpi/hbd47qrzmwye/bin/mpif90
+Using libraries: -Wl,-rpath,/home/aron/.hashdist/tmp/petsc-pudyfwyx5ndj/arch-linux2-c-opt/lib -L/home/aron/.hashdist/tmp/petsc-pudyfwyx5ndj/arch-linux2-c-opt/lib -lpetsc -Wl,-rpath,/home/aron/.hashdist/tmp/petsc-pudyfwyx5ndj/arch-linux2-c-opt/lib -L/home/aron/.hashdist/tmp/petsc-pudyfwyx5ndj/arch-linux2-c-opt/lib -lsuperlu_dist_3.3 -lcmumps -ldmumps -lsmumps -lzmumps -lmumps_common -lpord -lscalapack -lHYPRE -Wl,-rpath,/home/aron/.hashdist/bld/patchelf/k3rloj265ogt/lib -L/home/aron/.hashdist/bld/patchelf/k3rloj265ogt/lib -Wl,-rpath,/home/aron/.hashdist/bld/mpi/hbd47qrzmwye/lib -L/home/aron/.hashdist/bld/mpi/hbd47qrzmwye/lib -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -Wl,-rpath,/usr/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -Wl,-rpath,/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -lmpichcxx -lstdc++ -lsuperlu_4.3 -llapack -lblas -Wl,-rpath,/home/aron/.hashdist/bld/parmetis/rvegjtqhbawe/lib -L/home/aron/.hashdist/bld/parmetis/rvegjtqhbawe/lib -lparmetis -lmetis -lpthread -lm -lmpichf90 -lgfortran -lm -lgfortran -lm -lquadmath -lm -lmpichcxx -lstdc++ -Wl,-rpath,/home/aron/.hashdist/bld/patchelf/k3rloj265ogt/lib -L/home/aron/.hashdist/bld/patchelf/k3rloj265ogt/lib -Wl,-rpath,/home/aron/.hashdist/bld/mpi/hbd47qrzmwye/lib -L/home/aron/.hashdist/bld/mpi/hbd47qrzmwye/lib -Wl,-rpath,/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -Wl,-rpath,/usr/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -Wl,-rpath,/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -Wl,-rpath,/usr/lib/x86_64-linux-gnu -L/usr/lib/x86_64-linux-gnu -ldl -Wl,-rpath,/home/aron/.hashdist/bld/mpi/hbd47qrzmwye/lib -lmpich -lopa -lmpl -lrt -lpthread -lgcc_s -ldl  
+-----------------------------------------
+
