@@ -9,6 +9,5 @@
 -sub_pc_type lu
 -pc_monitor 
 -ksp_monitor 
--mat_block_size 3 
 -ksp_view
 -log_summary 
