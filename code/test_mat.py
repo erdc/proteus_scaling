@@ -11,7 +11,7 @@ from petsc4py import PETSc
 def test_mat(data_file, name):
     viewer = PETSc.Viewer().createBinary(data_file, 'r')
 
-    A, viewer = load_A_blocked(viewer)
+    A, viewer = load_A(viewer)
     b = A.getVecLeft()
     b.load(viewer)
     x = A.getVecRight()
@@ -29,10 +29,9 @@ def test_mat(data_file, name):
     x.destroy()
     b.destroy()
 
-def load_A_blocked(viewer):
+def load_A(viewer):
     A = PETSc.Mat()
     A.create()
-    A.setBlockSize(3)
     A.setFromOptions()
     A.load(viewer)
     return A, viewer
