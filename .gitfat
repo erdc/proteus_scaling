@@ -1,0 +1,2 @@
+[rsync]
+remote = mothership:cloud/proteus-scaling-fat
