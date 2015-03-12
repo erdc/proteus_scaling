@@ -37,36 +37,14 @@ def load_A_blocked(viewer):
     A.load(viewer)
     return A, viewer
 
-def load_A(data_file, viewer):
-    # number of fields, is f
-    f = 3
-    A = PETSc.Mat().load(viewer)
-    # Let's load it twice like idiots
-    (m, M), (n, N) = A.getSizes()
-
-    viewer = PETSc.Viewer().createBinary(data_file, 'r')
-    A = PETSc.Mat()
-    A.create()
-
-    A.setSizes(((m, n), (M*f, N*f)))
-
-    A.setFromOptions()
-    A.load(viewer)
-    return A, viewer
-
-data_file = '/Users/aron/adwr/input/liquid_column_collapse/liquid_column_collapse_twp_navier_stokes_p_L_0'
-
-name_prefix = 'liquid_column_collapse_twp_navier_stokes_p_L_'
-file_prefix = '/Users/aron/adwr/input/liquid_column_collapse/liquid_column_collapse_twp_navier_stokes_p_L_'
-
-def iter_systems(file_prefix, name_prefix):
-    for i in count():
-        filename = file_prefix + str(i) + '_blocked_3'
+def iter_systems(file_list):
+    for filename in file_list:
         if os.path.exists(filename):
-            yield filename, name_prefix + str(i)
-        else:
-            return
+            name = os.path.basename(filename)
+            yield filename, name
 
-for file, name in iter_systems(file_prefix, name_prefix):
+mat_files = [filename for filename in sys.argv[1:] if not (filename.endswith('.info') or filename.endswith('.options'))]
+
+for file, name in iter_systems(mat_files):
     test_mat(file, name)
 

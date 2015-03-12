@@ -26,10 +26,8 @@ def load_A_blocked(viewer):
     A.load(viewer)
     return A, viewer
 
-data_file = '/Users/aron/adwr/input/liquid_column_collapse/liquid_column_collapse_twp_navier_stokes_p_L_0'
-
-name_prefix = 'liquid_column_collapse_twp_navier_stokes_p_L_'
-file_prefix = '/Users/aron/adwr/input/liquid_column_collapse/liquid_column_collapse_twp_navier_stokes_p_L_'
+name_prefix = 'plunging_breakers_twp_navier_stokes_p_L_'
+file_prefix = '/home/aron/adwr-nearshore-hydro/input/plunging-breakers/plunging_breakers_twp_navier_stokes_p_L_'
 
 def iter_systems(file_prefix, name_prefix):
     for i in count():
