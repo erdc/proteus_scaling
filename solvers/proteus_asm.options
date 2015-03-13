@@ -9,5 +9,6 @@
 -sub_pc_type lu
 -pc_monitor 
 -ksp_monitor 
+-ksp_monitor_true_residual
 -ksp_view
 -log_summary 
