@@ -45,7 +45,7 @@ def meta_dump():
     with open(meta_name, 'w') as f:
         json.dump(meta, f, indent=4)
 
-def petsc_dump(A, b, u):
+def petsc_dump(A, u, b):
     global time_idx
     global ready_models
 
