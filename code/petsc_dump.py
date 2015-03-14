@@ -3,7 +3,7 @@ Helper module for extracting PETSc systems of equations from Proteus
 
 Put this file in the same directory as your application
 Edit it to your needs
-Use this patch to enable the petsc_dump hooks: https://github.com/erdc-cm/proteus/commit/ecb5f83469e549e736942a97d7887eec704d446c
+Use this patch to enable the petsc_dump hooks: https://github.com/erdc-cm/proteus/commit/e7b475dea376a4100949aa807682d3192f344170
 """
 
 from petsc4py import PETSc
@@ -22,6 +22,7 @@ models = ['twp_navier_stokes_p', 'vof_p']
 
 meta = {'name': app_name,
         'models': models,
+        'resolution': 'unknown'
         'sizes': 'unknown',
         'url': 'https://github.com/erdc-cm/air-water-vv/tree/master/2d/dambreak_Ubbink',
         'versions': {'hashdist': version.hashdist,
