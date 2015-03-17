@@ -1,0 +1,19 @@
+#!/bin/bash
+#PBS -A ERDCV00898R40
+#PBS -l walltime=00:45:00
+#PBS -l select=16:ncpus=32:mpiprocs=32
+#PBS -q debug
+#PBS -N marin512
+#PBS -j oe
+#PBS -l application=proteus
+#PBS -V
+#PBS -m eba
+#PBS -M aron@ahmadia.net 
+source /opt/modules/default/etc/modules.sh
+source /lustre/shared/projects/proteus/garnet.gnu.sh
+cd $PBS_O_WORKDIR
+aprun -n 512 python code/test_mat.py systems/marin/marin_64_twp_navier_stokes_p_L*_blocked*  -options_file solvers/proteus_asm.options > test_proteus_asm_64.txt
+aprun -n 512 python code/test_mat.py systems/marin/marin_64_twp_navier_stokes_p_L*_blocked*  -options_file solvers/fieldsplit_3D_schur_upper_asm.options > test_fieldsplit_3D_schur_upper_asm_64.txt
+aprun -n 512 python code/test_mat.py systems/marin/marin_64_twp_navier_stokes_p_L*_blocked*  -options_file solvers/fieldsplit_3D_schur_full_asm.options > test_fieldsplit_3D_schur_full_asm_64.txt
+aprun -n 512 python code/test_mat.py systems/marin/marin_64_twp_navier_stokes_p_L*_blocked*  -options_file solvers/fieldsplit_3D_schur_diag_asm.options > test_fieldsplit_3D_schur_diag_asm_64.txt
+
