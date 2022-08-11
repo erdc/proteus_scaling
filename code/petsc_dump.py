@@ -3,7 +3,7 @@ Helper module for extracting PETSc systems of equations from Proteus
 
 Put this file in the same directory as your application
 Edit it to your needs
-Use this patch to enable the petsc_dump hooks: https://github.com/erdc-cm/proteus/commit/e7b475dea376a4100949aa807682d3192f344170
+Use this patch to enable the petsc_dump hooks: https://github.com/erdc/proteus/commit/e7b475dea376a4100949aa807682d3192f344170
 """
 
 from petsc4py import PETSc
@@ -24,7 +24,7 @@ meta = {'name': app_name,
         'models': models,
         'resolution': 'unknown'
         'sizes': 'unknown',
-        'url': 'https://github.com/erdc-cm/air-water-vv/tree/master/2d/dambreak_Ubbink',
+        'url': 'https://github.com/erdc/air-water-vv/tree/master/2d/dambreak_Ubbink',
         'versions': {'hashdist': version.hashdist,
                      'hashstack': version.hashstack,
                      'proteus': version.proteus,
